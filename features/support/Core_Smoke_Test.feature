@@ -56,8 +56,8 @@ Then Verify Device ID Customer Name Address Account AmI ID and Meter ID two
 Then Search and select Device ID
 Then Verify Device Number values
 # Verify Watch Me is working
-Given login to dev-vpc server
-Then Verify Device ID Customer Name Address Account AmI ID and Meter ID two
-Then Search and select Device ID
-And  click Watch Me
+#Given login to dev-vpc server
+#Then Verify Device ID Customer Name Address Account AmI ID and Meter ID two
+#Then Search and select Device ID
+#And  click Watch Me
 #Then mail report

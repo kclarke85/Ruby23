@@ -1,0 +1,23 @@
+# Creation Date: 03/03/17
+# Author Vipul Patel
+# Type: Regression
+# Priority: Medium
+# Estimate: None
+
+Feature: C349 Verify Data tab for Device Access app.
+  Scenario: C349 Verify Data tab for Device Access app.
+
+    Given login to dev-vpc server
+    Then Select the utility under test -- ceal
+  Then Select Admin app
+  #Then Click the Billing Cycle button
+  #Then Click the Create New Billing Cycle Button and  Insert Billing cycle Name and Default Day, then save
+  #Then
+  # Then
+#Then Select Interval table and verify print, copy, excel, csv and pdf buttons are displayed.
+#Then Select Data tab, verify options under Data Type, namely Read graph is displayed with all UoM (Unit of Measurement). Ensure Print and Download button are displayed.
+#Then Select all graph values and verify the UoM.
+#Then Select Read table and verify print, copy, excel, csv and pdf buttons are displayed.
+#Then Select tab Data, verify Intervals/Reads table is displayed when selected under Data Type. Verify print, copy, excel, csv and pdf buttons are displayed.
+#And Select Data tab, verify Usage Profile graph under Data Type is displayed with a Print button.
+

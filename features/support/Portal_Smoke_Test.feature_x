@@ -1,0 +1,13 @@
+# Creation Date: 03/03/17
+# Author: Kevin Clarke
+# Type: Smoke
+# Priority: Medium
+# Estimate: None
+
+Feature: Portal Smoke Test
+
+ Scenario: Begin Portal Smoke Test
+Given The User Navigates to the Customer Portal Page
+#    Then Select the utility under test -- redwood
+#    Then Validate
+#    And Click the admin button

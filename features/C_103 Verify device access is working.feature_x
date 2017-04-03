@@ -1,0 +1,14 @@
+#Creation Date: 03/28/17
+# Author: Kevin Clarke
+# Type: Smoke
+# Priority: High
+# Estimate: None
+
+Feature: Core - Verify device access is working
+
+Scenario: Verify device access application is working
+
+Given login to dev-vpc server
+Then Verify Device ID Customer Name Address Account AmI ID and Meter ID two
+Then  Search and select Device ID
+Then Verify Device Number values

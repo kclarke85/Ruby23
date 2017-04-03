@@ -1,0 +1,15 @@
+#Creation Date: 03/28/17
+# Author: Kevin Clarke
+# Type: Regression
+# Priority: High
+# Estimate: None
+
+Feature: Core -Verify downloading and printing of device access charts.
+
+  Scenario:Verify downloading and printing of device access charts.
+
+    Given login to dev-vpc server
+    Then Verify Device ID Customer Name Address Account AmI ID and Meter ID two
+    Then Search and select Device ID
+    Then Verify Device Number values
+    And  Select/click Print and or Download button.
