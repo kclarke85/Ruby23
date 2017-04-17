@@ -3,11 +3,26 @@
 # Type: Smoke
 # Priority: Medium
 # Estimate: None
-
+#Note: 4/4/ 17 ..There are additional scenarios that are being tested and will be added soon.
 Feature: Portal Smoke Test
 
  Scenario: Begin Portal Smoke Test
 Given The User Navigates to the Customer Portal Page
-#    Then Select the utility under test -- redwood
-#    Then Validate
-#    And Click the admin button
+Then Verify the Landing Page Header
+And Verify the account holder information
+And Verify dashboard  column on the landing page
+Then Verify the Usage in Current Billing Cycle content
+And Verify Alert content
+Then Verify Notification content
+And  Verify Billing Cycle Threshold
+Then Verify landing page footer
+# Validate Usage Details
+Then Verify Usage Details
+And Verify the content of the Usage Details Desclaimer
+Then Verify that the settings content
+And Verify  content and funtions from the Meters page
+Then check the meters page Settings content
+And Verify the Usage Details Link on the Meters Page
+Then Verify the Dashboard link
+ And Verify Add Recipients link
+##Then Mail Portal Report

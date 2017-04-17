@@ -17,7 +17,7 @@ module Clockwork
   # end
 
   #every(10.seconds, 'frequent.job')
-  #every(3.minutes, 'frequent.job')
-  every(8.hour, 'hourly.job')
+  #every(2.minutes, 'frequent.job')
+  #every(8.hour, 'hourly.job')
   #every(1.day, 'midnight.job', :at => '00:00')
 end
