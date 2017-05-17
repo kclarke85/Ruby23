@@ -25,4 +25,4 @@ Then check the meters page Settings content
 And Verify the Usage Details Link on the Meters Page
 Then Verify the Dashboard link
  And Verify Add Recipients link
-##Then Mail Portal Report
+Then Mail Portal Report
