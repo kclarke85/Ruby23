@@ -56,4 +56,4 @@ Given login to dev-vpc server
 Then Verify Device ID Customer Name Address Account AmI ID and Meter ID two
 Then Search and select Device ID
 Then Verify Device Number values
-#Then mail report
+Then mail report
